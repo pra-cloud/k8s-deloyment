@@ -1,0 +1,6 @@
+If you don't have an Ingress controller installed, you need to install one. For example, to install the NGINX Ingress Controller, you can run:
+
+
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
+
